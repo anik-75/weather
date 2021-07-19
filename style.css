@@ -1,0 +1,91 @@
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  background: url(img/bgc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+#main_section {
+  opacity: 1;
+  border: 5px solid #0405079d;
+  border-radius: 10px;
+  width: 50vh;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#input_text {
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-width: 0 0 2px 0px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 5px 5px 10px grey;
+}
+#input_data {
+  align-self: center;
+}
+#input_text:focus {
+  outline: none;
+}
+
+button#get_weather {
+  display: block;
+  border-radius: 50px;
+  font-size: 1.8rem;
+  padding: 0.7rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  background-color: rgba(128, 128, 128, 0.993);
+  box-shadow: 2px 2px 15px rgb(10, 7, 7);
+  color: rgba(245, 245, 245, 0.904);
+}
+
+.weather_report {
+  display: none;
+  font-size: 5rem;
+  margin: 2rem 1.5rem ;
+  text-align: center;
+  line-height: 3rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  color: #334257;
+}
+
+.city_info {
+  font-weight: bold;
+}
+
+#day{
+  font-size: medium;
+}
+
+.weather-stats {
+  padding: 10px;
+}
+
+.temp {
+  font-size: 7rem;
+  font-weight: bolder;
+  margin: 2rem 0;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.temp_min_max,
+.weatherCondition {
+  font-size: 1.6rem;
+  font-weight: bold;
+}

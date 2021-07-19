@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" href="img/weather.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="main_section">
+      <section id="input_data">
+        <input
+          type="text"
+          name="country"
+          id="input_text"
+          class="input_txt_data"
+          placeholder="City Name"
+          required
+        />
+        <button id="get_weather">Get Weather</button>
+      </section>
+
+      <section class="weather_report">
+        <div class="city_info">
+          <div class="city">Delhi, IN</div>
+          <div class="date">10 July , 2020 
+            <br>
+           <span id="day">Wednesday</span> 
+          </div>
+
+        <div class="weather-stats">
+          <div class="temp">34&deg;C</div>
+          <div class="temp_min_max">32&deg;C (min) / 34&deg;C (max)</div>
+          <div class="weatherCondition">Clear</div>
+          <div class="img"><img src=" http://openweathermap.org/img/wn/10d@2x.png" alt=""></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
