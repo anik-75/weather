@@ -62,7 +62,7 @@ function showWeather(weather)
   }
    else if(weatherConditon.textContent == 'Mist')
   {
-    document.querySelector("body").style.backgroundImage = "url('img/mist.jpg')";
+    document.querySelector("body").style.backgroundImage = "url('img/atmosphere.jpg')";
   }
    
   else if(weatherConditon.textContent == 'Clouds')
